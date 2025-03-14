@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "drug-review-analysis"
+version = "0.1.0"
+description = "Analysis of drug reviews dataset"
+authors = ["Your Name"]
+readme = "README.md"
+packages = [{include = "drug_review_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
