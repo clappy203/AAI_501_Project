@@ -22,4 +22,7 @@ The project uses Jupyter notebooks for analysis. To run the notebooks:
 2. Start Jupyter:
    ```bash
    jupyter notebook
-   ``` 
+   ```
+
+   # Kanboard Project Management Board
+   https://github.com/users/clappy203/projects/2
