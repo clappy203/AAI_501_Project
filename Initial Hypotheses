@@ -1,0 +1,29 @@
+## Hypotheses
+
+### Hypothesis 1: Sentiment Analysis
+**Expectation**: Online drug reviews contain rich, unstructured textual data that can be used to accurately predict patient sentiment through NLP techniques.
+
+**EDA Test**: 
+- Perform sentiment analysis on review texts using NLP models
+- Compare sentiment scores with numerical ratings provided in the dataset
+- Use statistical tests (e.g., correlation analysis) to validate the relationship between sentiment and ratings
+- Success criteria: Strong positive correlation between sentiment scores and numerical ratings
+
+### Hypothesis 2: Drug Effectiveness Prediction
+**Expectation**: Machine learning models can accurately predict drug effectiveness based on textual review content and patient characteristics.
+
+**EDA Test**:
+- Extract key features from review texts (e.g., symptom descriptions, duration of use)
+- Build supervised learning models to predict effectiveness ratings
+- Compare model performance against baseline metrics
+- Success criteria: Model accuracy significantly higher than random chance
+
+### Hypothesis 3: Side Effect Severity Classification
+**Expectation**: Unsupervised learning can identify meaningful patterns in side effect descriptions and classify their severity.
+
+**EDA Test**:
+- Apply topic modeling to identify common side effect themes
+- Develop clustering algorithms to group similar side effects
+- Validate clusters against known medical classifications
+- Success criteria: Clear separation of side effects by severity with medical relevance
+
