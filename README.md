@@ -1,28 +1,31 @@
-# Drug Review Analysis
+# Drug Reviews Dataset Documentation
 
-This project analyzes drug reviews dataset to extract insights about medication effectiveness, side effects, and patient experiences.
+## Dataset Overview
+This dataset contains processed drug reviews from DrugLib.com, combining both training and test sets.
 
-## Setup
+## Features Description
 
-1. Make sure you have Python 3.12+ installed
-2. Install Poetry (package manager)
-3. Install dependencies:
-   ```bash
-   poetry install
-   ```
+### Original Features
+- `urlDrugName`: Name of the drug
+- `rating`: User rating (1-10)
+- `effectiveness`: Effectiveness level (categorical)
+- `sideEffects`: Side effects severity (categorical)
+- `condition`: Medical condition treated
+- `benefitsReview`: Text review of benefits
+- `sideEffectsReview`: Text review of side effects
+- `commentsReview`: Additional comments
 
-## Usage
+### Engineered Features
+- `effectiveness_encoded`: Numerical encoding of effectiveness (1-5)
+  - 1: Ineffective
+  - 2: Marginally Effective
+  - 3: Moderately Effective
+  - 4: Considerably Effective
+  - 5: Highly Effective
 
-The project uses Jupyter notebooks for analysis. To run the notebooks:
-
-1. Activate the Poetry shell:
-   ```bash
-   poetry shell
-   ```
-2. Start Jupyter:
-   ```bash
-   jupyter notebook
-   ```
-
-   # Kanban Project Management Board
-   https://github.com/users/clappy203/projects/2
+- `side_effects_encoded`: Numerical encoding of side effects (1-5)
+  - 1: No Side Effects
+  - 2: Mild Side Effects
+  - 3: Moderate Side Effects
+  - 4: Severe Side Effects
+  - 5: Extremely Severe Side Effects

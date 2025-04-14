@@ -1,0 +1,29 @@
+Problem Statement
+
+
+Objective
+The primary objective of this analysis is to develop a machine learning system capable of extracting insights from online patient drug reviews. The system will:
+
+-       Perform sentiment analysis to determine patient satisfaction.
+
+-       Predict drug effectiveness based on textual review content and patient characteristics.
+
+-       Classify the severity of side effects described in patient reviews.
+
+This is to enhance understanding of patient experiences and support evidence-based decision-making in the healthcare and pharmaceutical industries.
+
+The Key Variables here are:
+
+Drug Name: Identifier for the medication being reviewed.
+Condition: The medical condition for which the drug was taken.
+Review Text: Unstructured textual data describing patient experiences.
+Rating: Numeric value reflecting the patient’s overall satisfaction (typically 1–10).
+Effectiveness: A score or classification of how well the drug worked for the user.
+Side Effects: Descriptions and possible severity ratings of adverse reactions.
+
+Expected Relationships
+-       Sentiment Score ↔ Rating: A strong positive correlation is expected between the sentiment score derived from review text and the user’s numeric rating.
+
+-       Review Features ↔ Effectiveness: Text features (e.g., keywords, duration of use) and structured inputs (e.g., drug, condition) are expected to significantly influence the predicted effectiveness of a drug.
+
+-        Side Effect Keywords ↔ Severity Clusters: Patterns in word usage within side effect descriptions are expected to naturally group into clusters corresponding to different severity levels using unsupervised learning techniques.
