@@ -70,6 +70,7 @@ poetry shell
 
 # Install all dependencies
 poetry install
+
 ```
 
 ### 📓 Launch Jupyter Notebook
